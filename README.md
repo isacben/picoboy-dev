@@ -78,10 +78,16 @@ The Adafruit PiTFT 2.2" HAT Mini Kit - 320x240 2.2" TFT - No Touch could also be
 
 https://www.adafruit.com/product/2315
 
+## Enclosure
+
+- Wooden box: https://www.youtube.com/watch?v=iPKIugXvlM4
+
 ## Similar projects
 
+- PICO-8 handheld: https://www.youtube.com/watch?v=R3GZflUXv0g
 - Pocket PiGRRL: https://learn.adafruit.com/pocket-pigrrl/overview
 - PiGRRL Zero: https://learn.adafruit.com/pigrrl-zero/overview
 - Game Boy Zero: https://www.youtube.com/watch?v=XzYMWNiUN_M&t=229s
 - TurtlePi: https://www.youtube.com/watch?v=BnAuwz3R98o
 - Just a controller: https://www.youtube.com/watch?v=1k49VVNHvtU
+- No battery: https://www.youtube.com/watch?v=IP3QVGmd_90 and https://www.youtube.com/watch?v=VYeIR5n5Few
