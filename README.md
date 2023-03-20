@@ -14,6 +14,23 @@ This project is ongoing. An MVP is not available yet.
 - [ ] Design a PCB for the game pad?
 - [ ] Design an enclosure?
 
+## RetroPi
+
+To configure wifi see the following links:
+
+- https://funconsumertech.com/retropie-wi-fi-setup-an-illustrated-step-by-step-guide/
+- https://retropie.org.uk/docs/Wifi/
+
+Configure SSH:
+
+https://retropie.org.uk/docs/SSH/
+
+1. Boot to RetroPie
+2. Enter shell by pressing Ctrl + F4
+3. cd /boot
+4. sudo touch ssh
+5. sudo reboot now
+
 ## Buttons
 
 ### Raspberry Pi connection
@@ -52,3 +69,19 @@ https://www.youtube.com/watch?v=vCAGzLGTUk4&t=11s
 There is also a 4 inch square display, which would be perfect for PICO-8, but it might be too big. It is also more expensive:
 
 https://www.waveshare.com/4inch-DPI-LCD-C.htm
+
+Another option is to use something like the Adafruit PiTFT Plus 320x240 2.8" TFT + Capacitive Touchscreen. The HAT uses the high speed SPI interface on the Pi. This will require a tool called fbcp (framebuffer copy). See Pocket PiGRRL:
+
+https://www.adafruit.com/product/2423
+
+The Adafruit PiTFT 2.2" HAT Mini Kit - 320x240 2.2" TFT - No Touch could also be a good option:
+
+https://www.adafruit.com/product/2315
+
+## Similar projects
+
+- Pocket PiGRRL: https://learn.adafruit.com/pocket-pigrrl/overview
+- PiGRRL Zero: https://learn.adafruit.com/pigrrl-zero/overview
+- Game Boy Zero: https://www.youtube.com/watch?v=XzYMWNiUN_M&t=229s
+- TurtlePi: https://www.youtube.com/watch?v=BnAuwz3R98o
+- Just a controller: https://www.youtube.com/watch?v=1k49VVNHvtU
