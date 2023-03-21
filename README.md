@@ -88,6 +88,7 @@ https://www.adafruit.com/product/2315
 - Pocket PiGRRL: https://learn.adafruit.com/pocket-pigrrl/overview
 - PiGRRL Zero: https://learn.adafruit.com/pigrrl-zero/overview
 - Game Boy Zero: https://www.youtube.com/watch?v=XzYMWNiUN_M&t=229s
+- Easier Game Boy Zero with parts and diagrams: https://www.youtube.com/watch?v=KfKn2JdnxF0
 - TurtlePi: https://www.youtube.com/watch?v=BnAuwz3R98o
 - Just a controller: https://www.youtube.com/watch?v=1k49VVNHvtU
 - No battery: https://www.youtube.com/watch?v=IP3QVGmd_90 and https://www.youtube.com/watch?v=VYeIR5n5Few
