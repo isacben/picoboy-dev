@@ -7,7 +7,7 @@ This project is ongoing. An MVP is not available yet.
 - [x] Prototype of a game pad using a breadboard.
 - [ ] Prototype a display using an Adafruit TFT display.
 - [ ] Test PICO-8 on the Raspberry Pi.
-- [ ] Look for a power supply board and a battery.
+- [x] Look for a power supply board and a battery.
 - [ ] Look for an audio amplifier board and a speaker.
 - [ ] Look for a perf board and buttons for the game pad.
 - [x] Look for a display.
@@ -78,6 +78,32 @@ The Adafruit PiTFT 2.2" HAT Mini Kit - 320x240 2.2" TFT - No Touch could also be
 
 https://www.adafruit.com/product/2315
 
+## Power
+
+> For the MVP, I might not install a power booster nor a battery!
+
+For the MVP, this wall power supply can be enough:
+
+https://www.adafruit.com/product/1995
+
+Since the battery will provide 3.7V only, we will need a circuit that can boost the battery voltage up to 5V and 1A (for a Raspberry Pi Zero, at least).
+
+We also need to charge (constant current and constant voltage) and a protection circuit (over discharge and short circuit).
+
+Thi video shows how to use the following components:
+
+https://www.youtube.com/watch?v=VczNDDkFiAI
+
+tp4056 
+MT3608
+3.7V lithium battery
+switch
+
+Interesting videos:
+
+- Power for your electronic projects (does not talk about battery charging): https://www.youtube.com/watch?v=IT19dg73nKU
+- DIY LiPo Charge/Protect/5V Boost Circuit: https://www.youtube.com/watch?v=Fj0XuYiE7HU
+
 ## Enclosure
 
 - Wooden box: https://www.youtube.com/watch?v=iPKIugXvlM4
@@ -92,3 +118,4 @@ https://www.adafruit.com/product/2315
 - TurtlePi: https://www.youtube.com/watch?v=BnAuwz3R98o
 - Just a controller: https://www.youtube.com/watch?v=1k49VVNHvtU
 - No battery: https://www.youtube.com/watch?v=IP3QVGmd_90 and https://www.youtube.com/watch?v=VYeIR5n5Few
+- A PCB like the one I am imagining: https://www.youtube.com/watch?v=pEI89ICLwIE and the GitHub repo: https://github.com/Gaboze-Pocaio/Round-2
