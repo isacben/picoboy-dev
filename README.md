@@ -118,4 +118,5 @@ Interesting videos:
 - TurtlePi: https://www.youtube.com/watch?v=BnAuwz3R98o
 - Just a controller: https://www.youtube.com/watch?v=1k49VVNHvtU
 - No battery: https://www.youtube.com/watch?v=IP3QVGmd_90 and https://www.youtube.com/watch?v=VYeIR5n5Few
-- A PCB like the one I am imagining: https://www.youtube.com/watch?v=pEI89ICLwIE and the GitHub repo: https://github.com/Gaboze-Pocaio/Round-2
+- A PCB like the one I am imagining: https://www.youtube.com/watch?v=pEI89ICLwIE and the GitHub repo: https://github.com/Gaboze-Pocaio/Round-2 and https://github.com/32teeth?tab=repositories
+- Retro-esp32: https://github.com/retro-esp32/RetroESP32-Hardware
