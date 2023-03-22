@@ -150,3 +150,7 @@ https://learn.adafruit.com/pocket-pigrrl/pam8302
 - A PCB like the one I am imagining: https://www.youtube.com/watch?v=pEI89ICLwIE and the GitHub repo: https://github.com/Gaboze-Pocaio/Round-2 and https://github.com/32teeth?tab=repositories
 - Retro-esp32: https://github.com/retro-esp32/RetroESP32-Hardware
 - SAMEBOY (pretty cool project, but no open sourced): https://www.youtube.com/watch?v=S-_VMUlxPx4 and https://www.youtube.com/watch?v=WAgPQLskKko
+
+## Other resources
+
+- Introduction to Eagle CAD: https://www.youtube.com/watch?v=VfyzJXDpCm8
