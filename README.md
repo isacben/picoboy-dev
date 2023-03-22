@@ -46,6 +46,10 @@ https://retropie.org.uk/docs/SSH/
 4. sudo touch ssh
 5. sudo reboot now
 
+Interesting way to connect the RPi to a PCB: pogo pins
+
+https://www.adafruit.com/product/5382
+
 ## Buttons
 
 ### Raspberry Pi connection
@@ -112,12 +116,22 @@ https://www.youtube.com/watch?v=VczNDDkFiAI
 tp4056 
 MT3608
 3.7V lithium battery
-switch
+switch: https://www.adafruit.com/product/805
 
 Interesting videos:
 
 - Power for your electronic projects (does not talk about battery charging): https://www.youtube.com/watch?v=IT19dg73nKU
 - DIY LiPo Charge/Protect/5V Boost Circuit: https://www.youtube.com/watch?v=Fj0XuYiE7HU
+
+## Audio
+
+The easiest option is to use the Adafruit PAM8302:
+
+https://www.adafruit.com/product/2130
+
+This is the wiring tutorial:
+
+https://learn.adafruit.com/pocket-pigrrl/pam8302
 
 ## Enclosure
 
