@@ -13,6 +13,21 @@ This project is ongoing. An MVP is not available yet.
 - [x] Look for a display.
 - [ ] Design a PCB for the game pad?
 - [ ] Design an enclosure?
+- [ ] Define requirements (actually, limitations)
+
+## Requirements and limitations for PCB version
+
+- PCB that fits in a Gam Boy Color or Pocket shell
+- Holes for RPi headers
+- Power the device by powering directly the RPi
+- Connect a display to the PCB
+- Display connector on the PCB
+- Buttons directly in the PCB (Retrogram from Adafruit will be needed)
+- Amplifier in the PCB with through holes components or the Adafruit PAM8302
+- Volume wheel and headphone jack
+- 8 ohms speaker
+- Power switch?
+- Game Boy Color or Pocket shell with no modifications
 
 ## RetroPi
 
@@ -120,3 +135,4 @@ Interesting videos:
 - No battery: https://www.youtube.com/watch?v=IP3QVGmd_90 and https://www.youtube.com/watch?v=VYeIR5n5Few
 - A PCB like the one I am imagining: https://www.youtube.com/watch?v=pEI89ICLwIE and the GitHub repo: https://github.com/Gaboze-Pocaio/Round-2 and https://github.com/32teeth?tab=repositories
 - Retro-esp32: https://github.com/retro-esp32/RetroESP32-Hardware
+- SAMEBOY (pretty cool project, but no open sourced): https://www.youtube.com/watch?v=S-_VMUlxPx4 and https://www.youtube.com/watch?v=WAgPQLskKko
