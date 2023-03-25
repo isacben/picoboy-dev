@@ -13,21 +13,63 @@ This project is ongoing. An MVP is not available yet.
 - [x] Look for a display.
 - [ ] Design a PCB for the game pad?
 - [ ] Design an enclosure?
-- [ ] Define requirements (actually, limitations)
+- [ ] Define requirements (actually, limitations) for an MVP on a PCB
+- [x] MVP components
 
-## Requirements and limitations for PCB version
+## Requirements and limitations for PCB version (MVP)
 
 - PCB that fits in a Gam Boy Color or Pocket shell
 - Holes for RPi headers
-- Power the device by powering directly the RPi
+- Power the device by powering directly the RPi (no battery)
 - Connect a display to the PCB
-- Display connector on the PCB
+- Display connector on the PCB?
 - Buttons directly in the PCB (Retrogram from Adafruit will be needed)
 - Amplifier in the PCB with through holes components or the Adafruit PAM8302
 - Volume wheel and headphone jack
 - 8 ohms speaker
 - Power switch?
 - Game Boy Color or Pocket shell with no modifications
+
+## MVP Bill Of Materials (BOM)
+
+| Part | Part number | Estimated Price |
+| --- | --- | --- |
+| Raspberry Pi Zero W | Adafruit | $15.00 |
+| Display | ? | $0.00 |
+| RPi headers | ? | $0.00 |
+| Audio amplifier | [Adafruit PAM8302](https://www.adafruit.com/product/2130) | $3.95 |
+| Volume wheel | ? | $0.00 |
+| Headphone jack | ? | $0.00 |
+| 100uf capacitor (headphones) | ? | $0.00 |
+| 100K ohms resistor (headphones) | [Temp link](https://www.digikey.ca/en/products/detail/mallory-sonalert-products-inc/PSR-20F08S-JQ/2071438) | $0.00 |
+| 8 ohms speaker | ? | $0.00 |
+| Game Boy Pocket Shell | [EurBo Store](https://www.aliexpress.us/item/3256803277133643.html) | $10.00
+
+## MVP specifics
+
+### Audio Amplifier
+
+*TODO*
+
+### Headphones jack
+
+*TODO*
+
+### Speaker
+
+*TODO*
+
+### Volume wheel
+
+*TODO*
+
+### Display
+
+*TODO*
+
+### Game Boy pocket shell
+
+*TODO*
 
 ## RetroPi
 
@@ -150,6 +192,8 @@ https://learn.adafruit.com/pocket-pigrrl/pam8302
 - A PCB like the one I am imagining: https://www.youtube.com/watch?v=pEI89ICLwIE and the GitHub repo: https://github.com/Gaboze-Pocaio/Round-2 and https://github.com/32teeth?tab=repositories
 - Retro-esp32: https://github.com/retro-esp32/RetroESP32-Hardware
 - SAMEBOY (pretty cool project, but no open sourced): https://www.youtube.com/watch?v=S-_VMUlxPx4 and https://www.youtube.com/watch?v=WAgPQLskKko
+- CircuitPython Deshipu projects: https://hackaday.io/project/186921-game-22
+- PiOCKET Tiny: https://hackaday.io/project/21553-pi0cket-tiny and https://www.youtube.com/watch?v=xnwMN_q6XjE
 
 ## Other resources
 
