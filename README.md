@@ -4,17 +4,32 @@ A handheld console for PICO-8 games. Runs with a Raspberry Pi.
 This project is ongoing. An MVP is not available yet.
 
 ## TODO list
+- [x] Define requirements (actually, limitations) for an MVP on a PCB
 - [x] Prototype of a game pad using a breadboard.
-- [ ] Prototype a display using an Adafruit TFT display.
-- [ ] Test PICO-8 on the Raspberry Pi.
 - [x] Look for a power supply board and a battery.
-- [ ] Look for an audio amplifier board and a speaker.
-- [ ] Look for a perf board and buttons for the game pad.
-- [x] Look for a display.
-- [ ] Design a PCB for the game pad?
-- [ ] Design an enclosure?
-- [ ] Define requirements (actually, limitations) for an MVP on a PCB
-- [x] MVP components
+- [x] Look for an audio amplifier board and a speaker.
+- [x] Learn about displays.
+- [ ] ~~Look for a perf board and buttons for the game pad.~~
+- [ ] ~~Design an enclosure?~~
+
+### General
+
+- [ ] Test Raspberry Pi GPIOs voltage: should be 3.3V.
+- [ ] Test PICO-8 on the Raspberry Pi.
+- [ ] Test PICO-8 on the RG35XX.
+- [ ] Prototype a display using an Adafruit TFT display.
+- [ ] Learn about Eagle CAD
+
+### For the MVP
+
+- [ ] Order a Game Boy Pocket shell.
+- [ ] Look for a display that fits on a Game Boy Pocket shell.
+- [ ] Design a PCB based on the Gaboze Pocail (see [Similar projects](#similar-projects))
+- [ ] List MVP components
+- [ ] Order display
+- [ ] Order RPi Zero W and charger
+- [ ] Order audio amp plus components (speaker, headphones jack, volume wheel, capacitors & resistors)
+- [ ] Order PCB
 
 ## Requirements and limitations for PCB version (MVP)
 
@@ -35,6 +50,7 @@ This project is ongoing. An MVP is not available yet.
 | Part | Part number | Estimated Price |
 | --- | --- | --- |
 | Raspberry Pi Zero W | Adafruit | $15.00 |
+| Raspberry Pi charger | Adafruit | $9.00 |
 | Display | ? | $0.00 |
 | RPi headers | ? | $0.00 |
 | Audio amplifier | [Adafruit PAM8302](https://www.adafruit.com/product/2130) | $3.95 |
@@ -191,10 +207,13 @@ https://learn.adafruit.com/pocket-pigrrl/pam8302
 - No battery: https://www.youtube.com/watch?v=IP3QVGmd_90 and https://www.youtube.com/watch?v=VYeIR5n5Few
 - A PCB like the one I am imagining: https://www.youtube.com/watch?v=pEI89ICLwIE and the GitHub repo: https://github.com/Gaboze-Pocaio/Round-2 and https://github.com/32teeth?tab=repositories
 - Retro-esp32: https://github.com/retro-esp32/RetroESP32-Hardware
-- SAMEBOY (pretty cool project, but no open sourced): https://www.youtube.com/watch?v=S-_VMUlxPx4 and https://www.youtube.com/watch?v=WAgPQLskKko
+- SAMEBOY (pretty cool project, but no open sourced): https://www.youtube.com/watch?v=S-_VMUlxPx4 and https://www.youtube.com/watch?v=WAgPQLskKko.
+- SAMEBOY idea for the display: https://youtu.be/CCwOafAE-Js?t=698
 - CircuitPython Deshipu projects: https://hackaday.io/project/186921-game-22
 - PiOCKET Tiny: https://hackaday.io/project/21553-pi0cket-tiny and https://www.youtube.com/watch?v=xnwMN_q6XjE
 
 ## Other resources
 
 - Introduction to Eagle CAD: https://www.youtube.com/watch?v=VfyzJXDpCm8
+- Game Boy shells scans: https://www.reddit.com/r/Gameboy/comments/sn3k7u/attention_gameboy_modders_and_tinkerers/
+- Game Color digital camera patent: https://patents.google.com/patent/US7972216B2/en?q=(gameboy+color)&oq=gameboy+color
