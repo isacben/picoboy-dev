@@ -22,13 +22,13 @@ This project is ongoing. An MVP is not available yet.
 
 ### For the MVP
 
-- [ ] Order a Game Boy Pocket shell.
+- [x] Order a Game Boy Pocket shell.
 - [ ] Look for a display that fits on a Game Boy Pocket shell.
 - [ ] Design a PCB based on the Gaboze Pocail (see [Similar projects](#similar-projects))
 - [ ] List MVP components
 - [ ] Order display
 - [ ] Order RPi Zero W and charger
-- [ ] Order audio amp plus components (speaker, headphones jack, volume wheel, capacitors & resistors)
+- [ ] Order audio amp plus components (~~speaker~~, headphones jack, volume wheel, capacitors & resistors)
 - [ ] Order PCB
 
 ## Requirements and limitations for PCB version (MVP)
@@ -47,10 +47,10 @@ This project is ongoing. An MVP is not available yet.
 
 ## MVP Bill Of Materials (BOM)
 
-| Part | Part number | Estimated Price |
+| Part | Product | Estimated Price |
 | --- | --- | --- |
-| Raspberry Pi Zero W | Adafruit | $15.00 |
-| Raspberry Pi charger | Adafruit | $9.00 |
+| Raspberry Pi Zero 2 W | [Adafruit](https://www.adafruit.com/product/5291) | $15.00 |
+| Raspberry Pi charger | [Adafruit](https://www.adafruit.com/product/1995) | $8.25 |
 | Display | ? | $0.00 |
 | RPi headers | ? | $0.00 |
 | Audio amplifier | [Adafruit PAM8302](https://www.adafruit.com/product/2130) | $3.95 |
@@ -58,8 +58,9 @@ This project is ongoing. An MVP is not available yet.
 | Headphone jack | ? | $0.00 |
 | 100uf capacitor (headphones) | ? | $0.00 |
 | 100K ohms resistor (headphones) | [Temp link](https://www.digikey.ca/en/products/detail/mallory-sonalert-products-inc/PSR-20F08S-JQ/2071438) | $0.00 |
-| 8 ohms speaker | ? | $0.00 |
-| Game Boy Pocket Shell | [EurBo Store](https://www.aliexpress.us/item/3256803277133643.html) | $10.00
+| 8 ohms speaker | [Handheld Legend](https://handheldlegend.com/products/game-boy-color-pocket-clear-speaker-funnyplaying?_pos=1&_sid=534442f70&_ss=r) | $3.99 |
+| Game Boy Pocket Shell | [Handheld Legend](https://handheldlegend.com/products/game-boy-pocket-replacement-shell-housing?_pos=1&_sid=d40894297&_ss=r) | $7.99
+| Game Boy Pocket Silicone Membranes | [Handheld Legend](https://handheldlegend.com/products/game-boy-pocket-silicone-button-pads?_pos=1&_sid=6641bb0e7&_ss=r) | $2.79 |
 
 ## MVP specifics
 
