@@ -4,6 +4,9 @@ A handheld console for PICO-8 games. Runs with a Raspberry Pi.
 This project is ongoing. An MVP is not available yet.
 
 ## TODO list
+
+### Pre-study
+
 - [x] Define requirements (actually, limitations) for an MVP on a PCB
 - [x] Prototype of a game pad using a breadboard.
 - [x] Look for a power supply board and a battery.
