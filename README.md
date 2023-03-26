@@ -218,6 +218,7 @@ https://learn.adafruit.com/pocket-pigrrl/pam8302
 
 ## Other resources
 
-- Introduction to Eagle CAD: https://www.youtube.com/watch?v=VfyzJXDpCm8
+- Getting started with Eagle Part 1 (Autodesk)- https://www.youtube.com/watch?v=j79RRCUsD2c
+- Inspecting parts in Eagle (Adafruit): https://www.youtube.com/watch?v=VfyzJXDpCm8
 - Game Boy shells scans: https://www.reddit.com/r/Gameboy/comments/sn3k7u/attention_gameboy_modders_and_tinkerers/
 - Game Color digital camera patent: https://patents.google.com/patent/US7972216B2/en?q=(gameboy+color)&oq=gameboy+color
