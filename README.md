@@ -1,7 +1,10 @@
 # picoboy
-A handheld console for PICO-8 games. Runs with a Raspberry Pi.
+
+Development repository of a handheld console for PICO-8 games that runs with a Raspberry Pi Zero.
 
 This project is ongoing. An MVP is not available yet.
+
+The picoboy will be available here: https://github.com/isacben/picoboy
 
 ## TODO list
 
