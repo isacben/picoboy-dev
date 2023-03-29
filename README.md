@@ -117,6 +117,21 @@ https://www.adafruit.com/product/5382
 
 ## Buttons
 
+### Buttons location on the PCB
+
+Grid is configured to 0.5mm (Alt 0.125mm)
+
+| Button | X | Y | Angle |
+| --- | --- | --- | --- |
+| UP | 12.2 | 44.4 | 270 |
+| DOWN | 12.2 | 29.4 | 90 |
+| LEFT | 4.7 | 36.9 | 0 |
+| RIGHT | 19.7 | 36.9 | 180 |
+| A | 62.47 | 38.7 | 180 |
+| B | 48.42 | 34.21 | 180 |
+| START | 40.655 | 16.01 | 0 |
+| SELECT | 29.055 | 16.01 | 0 |
+
 ### Raspberry Pi connection
 
 To create a virtual keyboard using the GPIOs of the Raspberry Pi, I am using Adafruit's Retrogame software:
