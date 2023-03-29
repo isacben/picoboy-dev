@@ -187,6 +187,7 @@ Interesting videos:
 
 - Power for your electronic projects (does not talk about battery charging): https://www.youtube.com/watch?v=IT19dg73nKU
 - DIY LiPo Charge/Protect/5V Boost Circuit: https://www.youtube.com/watch?v=Fj0XuYiE7HU
+- How to design a battery charger circuit: https://www.youtube.com/watch?v=XBKOkvwgwNw
 
 ## Audio
 
@@ -197,6 +198,12 @@ https://www.adafruit.com/product/2130
 This is the wiring tutorial:
 
 https://learn.adafruit.com/pocket-pigrrl/pam8302
+
+Another option is to make a circuit using the LM4875M/NOPB:
+
+https://www.digikey.com/en/products/detail/texas-instruments/LM4875M-NOPB/1871687
+
+This looks pretty simple, and it is implemented in the Gaboze-Pocaio as well!
 
 ## Enclosure
 
@@ -228,3 +235,5 @@ https://learn.adafruit.com/pocket-pigrrl/pam8302
 - Circle board with flat sides: https://www.youtube.com/watch?v=-vxEbdl68Ro
 - Game Boy shells scans: https://www.reddit.com/r/Gameboy/comments/sn3k7u/attention_gameboy_modders_and_tinkerers/
 - Game Color digital camera patent: https://patents.google.com/patent/US7972216B2/en?q=(gameboy+color)&oq=gameboy+color
+- Electronic Product Development MASTERCLASS: https://www.youtube.com/watch?v=LxtdV_6XW6A
+
