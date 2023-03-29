@@ -24,7 +24,7 @@ The picoboy will be available here: https://github.com/isacben/picoboy
 - [ ] Test PICO-8 on the Raspberry Pi.
 - [ ] Test PICO-8 on the RG35XX.
 - [ ] Prototype a display using an Adafruit TFT display.
-- [ ] Learn about Eagle CAD
+- [x] Learn about Eagle CAD
 
 ### For the MVP
 
