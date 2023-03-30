@@ -44,12 +44,13 @@ The picoboy will be available here: https://github.com/isacben/picoboy
 - Power the device by powering directly the RPi (no battery)
 - Connect a display to the PCB
 - Display connector on the PCB?
-- Buttons directly in the PCB (Retrogram from Adafruit will be needed)
-- Amplifier in the PCB with through holes components or the Adafruit PAM8302
+- Buttons directly on the PCB (Retrogram from Adafruit will be needed)
+- Amplifier on the PCB with through holes components or the Adafruit PAM8302
 - Volume wheel and headphone jack
 - 8 ohms speaker
 - Power switch?
-- Game Boy Color or Pocket shell with no modifications
+- USB (mini?) connector to plug the chord on the PCB and a connection to the RPi
+- Game Boy Pocket shell with no modifications (hopefully)
 
 ## MVP Bill Of Materials (BOM)
 
@@ -72,7 +73,15 @@ The picoboy will be available here: https://github.com/isacben/picoboy
 
 ### Audio Amplifier
 
-*TODO*
+The amplifier can consist of a circuit similar to the one present on the Gaboze-Pocaio, using the LM4875M/NOPB. The circuit is basically the example documented in the data sheet.
+
+The LM4875M/NOPB provides a way to disconnect the speaker when headphones are detected.
+
+| Component | Part | Value |
+| --- | --- | --- |
+| R1 | - | ? |
+| C7 | CL10C221JB8NNNC | 220pF |
+| C9 | CL10A105KP8NNC | 1uF |
 
 ### Headphones jack
 
@@ -246,6 +255,7 @@ This looks pretty simple, and it is implemented in the Gaboze-Pocaio as well!
 - Getting started with Eagle Part 1 (Autodesk) - https://www.youtube.com/watch?v=j79RRCUsD2c
 - Getting started with Eagle Part 2 (Autodesk) - https://www.youtube.com/watch?v=rboxHQR4OCQ
 - Inspecting parts in Eagle (Adafruit): https://www.youtube.com/watch?v=VfyzJXDpCm8
+- Eagle cross-reference LABELS: https://electronics.stackexchange.com/questions/334798/what-do-decimal-alphanumeric-suffixes-after-a-slash-mean-in-a-schematic-cross-re
 - Copy the PCB outline: https://community.element14.com/products/eagle/f/forum/8069/eagle---how-to-copy-between-board-files
 - Circle board with flat sides: https://www.youtube.com/watch?v=-vxEbdl68Ro
 - Game Boy shells scans: https://www.reddit.com/r/Gameboy/comments/sn3k7u/attention_gameboy_modders_and_tinkerers/
