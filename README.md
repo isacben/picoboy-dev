@@ -105,11 +105,25 @@ The circuit itself includes the following components:
 
 ### Display
 
-*TODO*
+Possible displays, based on the Game Boy Pocket shell window size:
+
+- https://www.digikey.com/en/products/detail/displaytech/DT024CTFT/6650296
+- https://www.digikey.com/en/products/detail/newhaven-display-intl/NHD-2-4-240320CF-CSXV-F/6193108
+- https://www.digikey.com/en/products/detail/displaytech/DT024DTFT/6650298
+- https://www.digikey.com/en/products/detail/focus-lcds/E22RA-FW280-N/12182136
+- https://www.digikey.com/en/products/detail/focus-lcds/E22RB-FW1180-N/12182167
+- https://www.digikey.com/en/products/detail/focus-lcds/E24GA-I-CW1000-N/16602032
+- https://www.digikey.com/en/products/detail/dlc-display-co-ltd/DLC0240AAM06CB-2/13624834
 
 ### Game Boy pocket shell
 
-*TODO*
+Screen area measurements:
+
+| Area | Width | Height |
+| --- | --- | --- |
+| Display area (with screen protection frame)| 4.9cm (49mm) | 4.4cm (44mm) |
+| Screen holder | 5.9cm (59mm) | 5.9cm (59mm) |
+
 
 ## RetroPi
 
