@@ -107,6 +107,7 @@ The circuit itself includes the following components:
 
 Possible displays, based on the Game Boy Pocket shell window size:
 
+- Maybe the best option, although I would need to modify the GBP shell and the display would not cover the entire window (in the Game Boy Color, the display does cover the shell's window): https://www.adafruit.com/product/1774
 - https://www.digikey.com/en/products/detail/displaytech/DT024CTFT/6650296
 - https://www.digikey.com/en/products/detail/newhaven-display-intl/NHD-2-4-240320CF-CSXV-F/6193108
 - https://www.digikey.com/en/products/detail/displaytech/DT024DTFT/6650298
@@ -114,6 +115,11 @@ Possible displays, based on the Game Boy Pocket shell window size:
 - https://www.digikey.com/en/products/detail/focus-lcds/E22RB-FW1180-N/12182167
 - https://www.digikey.com/en/products/detail/focus-lcds/E24GA-I-CW1000-N/16602032
 - https://www.digikey.com/en/products/detail/dlc-display-co-ltd/DLC0240AAM06CB-2/13624834
+- Only option? https://4dsystems.com.au/mwdownloads/download/link/id/777/
+
+Game Boy measurements: 
+
+https://www.nintendo.co.uk/Support/Game-Boy-Pocket-Color/Product-information/Technical-data/Technical-data-619585.html
 
 ### Game Boy pocket shell
 
