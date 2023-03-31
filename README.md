@@ -77,11 +77,19 @@ The amplifier can consist of a circuit similar to the one present on the Gaboze-
 
 The LM4875M/NOPB provides a way to disconnect the speaker when headphones are detected.
 
-| Component | Part | Value |
-| --- | --- | --- |
-| R1 | - | ? |
-| C7 | CL10C221JB8NNNC | 220pF |
-| C9 | CL10A105KP8NNC | 1uF |
+The circuit itself includes the following components:
+
+| Component | Description | Reference part | Value |
+| --- | --- | --- | --- |
+| R17 | Potentiometer | | ? | 27 kOmhs |
+| R18 | Resistor | ERJ-PA3J151V | 150 Ohms |
+| R19 | Resistor | ERJ-PA3J104V | 100 kOhms |
+| C7 | Capacitor | CL10C221JB8NNNC | 220pF |
+| C8 | Capacitor | CL10A105KP8NNC | 1uF |
+| C9 | Capacitor | CL10A105KP8NNC | 1uF |
+| C10 | Capacitor | 6TPH100MAEA | 100uF |
+| J1 | Audio Jack | SJ1-3525NG-GR | - |
+| J2 | Speaker | SKU PRT-09914 | - |
 
 ### Headphones jack
 
