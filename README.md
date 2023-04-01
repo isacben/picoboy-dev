@@ -68,6 +68,7 @@ The picoboy will be available here: https://github.com/isacben/picoboy
 | 8 ohms speaker | [Handheld Legend](https://handheldlegend.com/products/game-boy-color-pocket-clear-speaker-funnyplaying?_pos=1&_sid=534442f70&_ss=r) | $3.99 |
 | Game Boy Pocket Shell | [Handheld Legend](https://handheldlegend.com/products/game-boy-pocket-replacement-shell-housing?_pos=1&_sid=d40894297&_ss=r) | $7.99
 | Game Boy Pocket Silicone Membranes | [Handheld Legend](https://handheldlegend.com/products/game-boy-pocket-silicone-button-pads?_pos=1&_sid=6641bb0e7&_ss=r) | $2.79 |
+| Game Boy Color Shell | Amazon | $20.66 |
 
 ## MVP specifics
 
@@ -108,6 +109,7 @@ The circuit itself includes the following components:
 Possible displays, based on the Game Boy Pocket shell window size:
 
 - Maybe the best option, although I would need to modify the GBP shell and the display would not cover the entire window (in the Game Boy Color, the display does cover the shell's window): https://www.adafruit.com/product/1774
+- Maybe this one for the Game Boy Color shell: https://www.adafruit.com/product/4278
 - https://www.digikey.com/en/products/detail/displaytech/DT024CTFT/6650296
 - https://www.digikey.com/en/products/detail/newhaven-display-intl/NHD-2-4-240320CF-CSXV-F/6193108
 - https://www.digikey.com/en/products/detail/displaytech/DT024DTFT/6650298
@@ -120,6 +122,16 @@ Possible displays, based on the Game Boy Pocket shell window size:
 Game Boy measurements: 
 
 https://www.nintendo.co.uk/Support/Game-Boy-Pocket-Color/Product-information/Technical-data/Technical-data-619585.html
+
+This is a common screen for the Game Boy Color:
+
+```
+LCD-39575-003/111
+Size: 3.2”
+Resulotion: 480X360
+Type of Screen: LCD
+Type of Flex Ribbon Connector: Clip
+```
 
 ### Game Boy pocket shell
 
