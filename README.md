@@ -301,4 +301,5 @@ This looks pretty simple, and it is implemented in the Gaboze-Pocaio as well!
 - Game Boy shells scans: https://www.reddit.com/r/Gameboy/comments/sn3k7u/attention_gameboy_modders_and_tinkerers/
 - Game Color digital camera patent: https://patents.google.com/patent/US7972216B2/en?q=(gameboy+color)&oq=gameboy+color
 - Electronic Product Development MASTERCLASS: https://www.youtube.com/watch?v=LxtdV_6XW6A
+- LCD connection types: https://focuslcds.com/LCD-Connection-Types#:~:text=Flexible%20printed%20circuit%20(FPC)%20and,laptops%20and%20mobile%20phone%20displays
 
