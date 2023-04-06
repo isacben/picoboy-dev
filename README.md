@@ -28,8 +28,8 @@ The picoboy will be available here: https://github.com/isacben/picoboy
 
 ### For the MVP
 
-- [x] Order a Game Boy Pocket shell.
-- [ ] Look for a display that fits on a Game Boy Pocket shell.
+- [x] Order a Game Boy Color shell.
+- [x] Look for a display that fits on a Game Boy Color shell.
 - [ ] Design a PCB based on the Gaboze Pocail (see [Similar projects](#similar-projects))
 - [ ] List MVP components
 - [ ] Order display
@@ -50,7 +50,7 @@ The picoboy will be available here: https://github.com/isacben/picoboy
 - 8 ohms speaker
 - Power switch?
 - USB (mini?) connector to plug the chord on the PCB and a connection to the RPi
-- Game Boy Pocket shell with no modifications (hopefully)
+- Game Boy Color shell with no modifications (hopefully)
 
 ## MVP Bill Of Materials (BOM)
 
@@ -58,7 +58,7 @@ The picoboy will be available here: https://github.com/isacben/picoboy
 | --- | --- | --- |
 | Raspberry Pi Zero 2 W | [Adafruit](https://www.adafruit.com/product/5291) | $15.00 |
 | Raspberry Pi charger | [Adafruit](https://www.adafruit.com/product/1995) | $8.25 |
-| Display | ? | $0.00 |
+| Display | [Adafruit](https://www.adafruit.com/product/1774) | $14.95 |
 | RPi headers | ? | $0.00 |
 | Audio amplifier | [Adafruit PAM8302](https://www.adafruit.com/product/2130) | $3.95 |
 | Volume wheel | ? | $0.00 |
@@ -70,7 +70,7 @@ The picoboy will be available here: https://github.com/isacben/picoboy
 | Game Boy Pocket Silicone Membranes | [Handheld Legend](https://handheldlegend.com/products/game-boy-pocket-silicone-button-pads?_pos=1&_sid=6641bb0e7&_ss=r) | $2.79 |
 | Game Boy Color Shell | [Amazon](https://www.amazon.com/dp/B09HH5B6PB) | $20.66 |
 
-## MVP specifics
+## MVP details
 
 ### Audio Amplifier
 
@@ -133,6 +133,10 @@ Type of Screen: LCD
 Type of Flex Ribbon Connector: Clip
 ```
 
+In the end, I will use the Game Boy Color shell, because there is more room for modern displays. The Pocket requires displays that are not available anymore.
+
+The best screen for the Game Boy Color is Adafruit's https://www.adafruit.com/product/1774
+
 ### Game Boy Pocket Shell
 
 Screen area measurements:
@@ -150,8 +154,6 @@ Screen area measurements:
 | Display area (with screen protection frame)| 4.4cm (44mm) | 4cm (40mm) |
 | Screen holder | 5.6cm (56mm) | 5cm (50mm) |
 | Max screen size | 5.9cm (59mm) | 7.1cm (71mm) |
-
-
 
 ## RetroPi
 
@@ -176,7 +178,7 @@ https://www.adafruit.com/product/5382
 
 ## Buttons
 
-### Buttons location on the PCB
+### Buttons location on the PCB for the Game Boy Pocket (will not use)
 
 Grid is configured to 0.5mm (Alt 0.125mm)
 
@@ -191,7 +193,7 @@ Grid is configured to 0.5mm (Alt 0.125mm)
 | START | 40.655 | 16.01 | 0 |
 | SELECT | 29.055 | 16.01 | 0 |
 
-### Raspberry Pi connection
+### Connection with the Raspberry Pi 
 
 To create a virtual keyboard using the GPIOs of the Raspberry Pi, I am using Adafruit's Retrogame software:
 
@@ -204,6 +206,10 @@ This is a tutorial on how to install Retrogame:
 https://learn.adafruit.com/retro-gaming-with-raspberry-pi/adding-controls-software
 
 ## Display
+
+In the end, I will use Adafruit's https://www.adafruit.com/product/1774
+
+But this was my investigation:
 
 A good idea might be to use a capacitive touch screen, such as the Waveshare 3.5inch DPI LCD:
 
@@ -280,6 +286,8 @@ https://www.digikey.com/en/products/detail/texas-instruments/LM4875M-NOPB/187168
 This looks pretty simple, and it is implemented in the Gaboze-Pocaio as well!
 
 ## Enclosure
+
+Ideas for enclosures:
 
 - Wooden box: https://www.youtube.com/watch?v=iPKIugXvlM4
 
