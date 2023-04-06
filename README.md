@@ -68,7 +68,7 @@ The picoboy will be available here: https://github.com/isacben/picoboy
 | 8 ohms speaker | [Handheld Legend](https://handheldlegend.com/products/game-boy-color-pocket-clear-speaker-funnyplaying?_pos=1&_sid=534442f70&_ss=r) | $3.99 |
 | Game Boy Pocket Shell | [Handheld Legend](https://handheldlegend.com/products/game-boy-pocket-replacement-shell-housing?_pos=1&_sid=d40894297&_ss=r) | $7.99
 | Game Boy Pocket Silicone Membranes | [Handheld Legend](https://handheldlegend.com/products/game-boy-pocket-silicone-button-pads?_pos=1&_sid=6641bb0e7&_ss=r) | $2.79 |
-| Game Boy Color Shell | Amazon | $20.66 |
+| Game Boy Color Shell | [Amazon](https://www.amazon.com/dp/B09HH5B6PB) | $20.66 |
 
 ## MVP specifics
 
