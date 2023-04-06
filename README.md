@@ -133,14 +133,24 @@ Type of Screen: LCD
 Type of Flex Ribbon Connector: Clip
 ```
 
-### Game Boy pocket shell
+### Game Boy Pocket Shell
 
 Screen area measurements:
 
 | Area | Width | Height |
 | --- | --- | --- |
 | Display area (with screen protection frame)| 4.9cm (49mm) | 4.4cm (44mm) |
-| Screen holder | 5.9cm (59mm) | 5.9cm (59mm) |
+| Screen holder | 5.7cm (57mm) | 5.8cm (58mm) |
+| Max screen size | 5.9cm (59mm) | 6.5cm (65mm) |
+
+### Game Boy Color Shell
+
+| Area | Width | Height |
+| --- | --- | --- |
+| Display area (with screen protection frame)| 4.4cm (44mm) | 4cm (40mm) |
+| Screen holder | 5.6cm (56mm) | 5cm (50mm) |
+| Max screen size | 5.9cm (59mm) | 7.1cm (71mm) |
+
 
 
 ## RetroPi
