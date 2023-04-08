@@ -64,7 +64,7 @@ The picoboy will be available here: https://github.com/isacben/picoboy
 | Volume wheel | ? | $0.00 |
 | Headphone jack | ? | $0.00 |
 | 100uf capacitor (headphones) | ? | $0.00 |
-| 100K ohms resistor (headphones) | [Temp link](https://www.digikey.ca/en/products/detail/mallory-sonalert-products-inc/PSR-20F08S-JQ/2071438) | $0.00 |
+| 100K ohms resistor (headphones) | ? | $0.00 |
 | 8 ohms speaker | [Handheld Legend](https://handheldlegend.com/products/game-boy-color-pocket-clear-speaker-funnyplaying?_pos=1&_sid=534442f70&_ss=r) | $3.99 |
 | Game Boy Pocket Shell | [Handheld Legend](https://handheldlegend.com/products/game-boy-pocket-replacement-shell-housing?_pos=1&_sid=d40894297&_ss=r) | $7.99
 | Game Boy Pocket Silicone Membranes | [Handheld Legend](https://handheldlegend.com/products/game-boy-pocket-silicone-button-pads?_pos=1&_sid=6641bb0e7&_ss=r) | $2.79 |
@@ -90,7 +90,7 @@ The circuit itself includes the following components:
 | C9 | Capacitor | [CL10A105KP8NNC](https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A105KP8NNNC/3886840) | 1uF |
 | C10 | Capacitor | [6TPH100MAEA](https://www.digikey.com/en/products/detail/panasonic-electronic-components/6TPH100MAEA/5371997) | 100uF |
 | J1 | Audio Jack | [SJ1-3525NG-GR](https://www.digikey.com/en/products/detail/cui-devices/SJ1-3525NG-GR/2295990) | - |
-| J2 | Speaker | SKU PRT-09914 | 8 Ohms |
+| J2 | Speaker | [SKU PRT-09914 - example](https://www.digikey.ca/en/products/detail/mallory-sonalert-products-inc/PSR-20F08S-JQ/2071438) | 8 Ohms |
 
 ### Headphones jack
 
