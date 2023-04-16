@@ -315,7 +315,8 @@ Ideas for enclosures:
 - Inspecting parts in Eagle (Adafruit): https://www.youtube.com/watch?v=VfyzJXDpCm8
 - Eagle cross-reference LABELS: https://electronics.stackexchange.com/questions/334798/what-do-decimal-alphanumeric-suffixes-after-a-slash-mean-in-a-schematic-cross-re
 - Copy the PCB outline: https://community.element14.com/products/eagle/f/forum/8069/eagle---how-to-copy-between-board-files
-- Create a library in Eagle: https://www.youtube.com/watch?v=lFzv7pSWjh8
+- Copy a component from another library in Eagle: https://www.youtube.com/watch?v=lFzv7pSWjh8
+- Create a custom library in Eagle: https://www.youtube.com/watch?v=FWbGdwL3-OU
 - Circle board with flat sides: https://www.youtube.com/watch?v=-vxEbdl68Ro
 - Game Boy shells scans: https://www.reddit.com/r/Gameboy/comments/sn3k7u/attention_gameboy_modders_and_tinkerers/
 - Game Color digital camera patent: https://patents.google.com/patent/US7972216B2/en?q=(gameboy+color)&oq=gameboy+color
