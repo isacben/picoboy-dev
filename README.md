@@ -94,7 +94,22 @@ The circuit itself includes the following components:
 
 ### Headphones jack
 
-*TODO*
+The following diagram shows how to connect the [SJ1-3525NG-GR](https://www.digikey.com/en/products/detail/cui-devices/SJ1-3525NG-GR/2295990) audio jack to the [LM4875M](https://www.digikey.com/en/products/detail/texas-instruments/lm4875m-nopb/1871687). Some of my notes are in Spanish.
+
+![Audio jack connection](images/audio-jack-connection.jpg?raw=true "Audio jack connection")
+
+The diagram shows the audio jack pins (1 to 5) and what should be connected to each pin:
+
+* Pins `4` and `5` are connected to pin `3 of the amplifier` (LM4875M), which is the HP-Sense headphone control pin. This control pin deactivates the speaker when the headphones are connected (the switches are open).
+* And pins `2` and `3` are connected to `pin 5 of the amplifier` (the output), which is the audio source (audio signal).
+
+|PIN| SJ1-3525NG  | LM4875M |
+| - | ----------- | ------- |
+| 1 | sleeve      | GND     |
+| 2 | tip         | 5       |
+| 3 | ring        | 5       |
+| 4 | tip switch  | 3       |
+| 5 | ring switch | 3       |
 
 ### Speaker
 
@@ -323,3 +338,4 @@ Ideas for enclosures:
 - Electronic Product Development MASTERCLASS: https://www.youtube.com/watch?v=LxtdV_6XW6A
 - LCD connection types: https://focuslcds.com/LCD-Connection-Types#:~:text=Flexible%20printed%20circuit%20(FPC)%20and,laptops%20and%20mobile%20phone%20displays
 - How to solder SMD components: https://www.youtube.com/watch?v=J4L76E1xaME
+- Understanding Audio Jack Switches and Schematics: https://www.cuidevices.com/blog/understanding-audio-jack-switches-and-schematics
