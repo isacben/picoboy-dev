@@ -52,6 +52,16 @@ The picoboy will be available here: https://github.com/isacben/picoboy
 - USB (mini?) connector to plug the chord on the PCB and a connection to the RPi
 - Game Boy Color shell with no modifications (hopefully)
 
+## Hardware Prototype
+
+- [x] Install Raspberry PI OS
+- [x] Configure Raspberry PI to boot to console 
+- [x] Install PICO-O8 
+- [ ] Solder the 50 pin connector to the LCD screen adaptor
+- [ ] Solder headers for the LCD screen adaptor
+- [ ] Test LCD screen with the Raspberry Pi 3 A+
+- [ ] Test buttons
+
 ## MVP Bill Of Materials (BOM)
 
 | Part | Product | Estimated Price |
