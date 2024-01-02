@@ -21,8 +21,8 @@ The picoboy will be available here: https://github.com/isacben/picoboy
 ### General
 
 - [ ] Test Raspberry Pi GPIOs voltage: should be 3.3V.
-- [ ] Test PICO-8 on the Raspberry Pi.
-- [ ] Test PICO-8 on the RG35XX.
+- [x] Test PICO-8 on the Raspberry Pi.
+- [ ] ~~Test PICO-8 on the RG35XX~~.
 - [ ] Prototype a display using an Adafruit TFT display.
 - [x] Learn about Eagle CAD
 
@@ -31,9 +31,9 @@ The picoboy will be available here: https://github.com/isacben/picoboy
 - [x] Order a Game Boy Color shell.
 - [x] Look for a display that fits on a Game Boy Color shell.
 - [ ] Design a PCB based on the Gaboze Pocail (see [Similar projects](#similar-projects))
-- [ ] List MVP components
-- [ ] Order display
-- [ ] Order RPi Zero W and charger
+- [x] List MVP components
+- [x] Order display
+- [x] Order RPi Zero W and charger
 - [ ] Order audio amp plus components (~~speaker~~, headphones jack, volume wheel, capacitors & resistors)
 - [ ] Order PCB
 
